@@ -1,0 +1,261 @@
+@font-face {
+    font-family: HDI-GerlingSans;
+    src: url("../fonts/TTF/HDI-GerlingSansCond-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+  font-family: HDI-GerlingSans-normal;
+  src: url("../fonts/TTF/HDI-GerlingSansCond-Regular.ttf");
+}
+@font-face {
+  font-family: HDI-GerlingSans-light;
+  src: url("../fonts/TTF/HDI-GerlingSansCond-Light.ttf");
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  font-family: HDI-GerlingSans-light;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.9;
+  
+  overflow-x: hidden;
+}
+.navbar
+{
+  padding: 24px 65px;
+  display: flex;
+  align-items: center;
+}
+.nav-wrap 
+{
+  width: 100%;
+  display: flex;
+  
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.navbar-img
+{
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+.navbar-toggler
+{
+  display: none;
+}
+.navbar-menu
+{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    align-items: center;
+}
+.navbar-nav
+{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    flex-direction: row;
+}
+.navbar-item
+{
+  margin-left: 1.5rem;
+
+}
+a{
+    text-decoration: none;
+}
+a.navbar-link {
+  font-size: 21px;
+  color: #009c33;
+  transition: text-shadow 0.3s;
+}
+a.navbar-link:hover {
+  font-weight: bold;
+  color: #009c33;
+  text-shadow: 0 0 0.65px #009c33, 0 0 0.65px #009c33;
+}
+.navbar-link
+{
+  padding: .5rem .6rem;
+}
+section.sticky-bar 
+{
+  height: 72px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #009c33;
+  z-index: 1111111;
+  display: flex;
+  transform: translateY(100%);
+  transition: transform 0.75s ease-in-out;
+  align-items: center;
+  justify-content: center;
+}
+section.sticky-bar p {
+  font-size: 21px;
+  font-family: HDI-GerlingSans;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding-right: 30px;
+}
+section.sticky-bar .sticky-btn {
+  border: solid 1.5px #ff9632;
+  color: white;
+  background-color: #ff9632;
+  margin: 0px 12px 0px 0px;
+  font-weight: bold;
+  font-family: HDI-GerlingSans;
+  width: 240px;
+  padding: 7.5px 0 0 0;
+  height: 48px;
+  font-size: 19px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+.sticky-btn:focus 
+{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+main {
+  width: 100%;
+  float: left;
+  overflow-x: hidden;
+}
+.main-section
+{
+  width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 3081px;
+    overflow-x: hidden;
+}
+.bg-img {
+  position: absolute;
+  width: 100%;
+  top: 580px;
+  left: 30px;
+}
+.bg-img img
+{
+  width: 100%;
+  float: left;
+  vertical-align: middle;
+  border-style: none;
+}
+.content
+{
+  width: 100%;
+  max-width: 1140px;
+  padding:0 15px;
+  margin:0 auto;
+}
+.content-first
+{
+  width: 55%;
+  position: absolute;
+  top: 93px;
+  z-index: 10;
+}
+.content-first h1
+{
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: HDI-GerlingSans;
+  margin: 0;
+  color: #009c33;
+  max-width: 660px;
+  width: 100%;
+  line-height: 1.2;
+}
+.content-first h4 {
+  font-size: 35px;
+  font-weight: normal;
+  font-stretch: condensed;
+  font-style: normal;
+  margin: 14px 0 48px;
+  max-width: 444px;
+  width: 100%;
+  line-height: 1.2;
+}
+.flex-section
+{
+  display: flex;
+}
+.content-second
+{
+  position: absolute;
+  top: 300px;
+  width: 55%;
+  z-index: 10;
+}
+.content-second ul
+{
+  list-style-type: none;
+    padding-right: 10px;
+    margin: 0;
+}
+.content-second ul li {
+  font-size: 19px;
+  font-stretch: condensed;
+  font-style: normal;
+  position: relative;
+  padding-bottom: 20px;
+}
+.content-second li:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -40px;
+  background-image: url(../images/Checkmark_green.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 23px;
+  height: 19.6px;
+  top: 5px;
+}
+.text-bold
+{
+  font-weight: bold;
+  font-family: HDI-GerlingSans;
+}
+.content-first-image {
+  width: 50%;
+  position: absolute;
+  right: -20px;
+  top: 101px;
+}
+.content-first-image object {
+  position: absolute;
+  width: 620px;
+  float: left;
+  top: 0;
+  margin-right: -10%;
+}
