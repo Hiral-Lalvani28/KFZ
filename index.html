@@ -4,9 +4,21 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link rel="stylesheet" href="css/style.css">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>HDI</title>
 </head>
 
@@ -22,26 +34,26 @@
                 <div class="navbar-menu">
                     <ul class="navbar-nav">
                         <li class="navbar-item">
-                            <a class="navbar-link" href="">Unsere Leistungen</a>
+                            <a class="navbar-link" href="#first-von">Unsere Leistungen</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="navbar-link" href="">So funktioniert’s</a>
+                            <a class="navbar-link" href="#third-von">So funktioniert’s</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="navbar-link" href="">Unsere Tarife</a>
+                            <a class="navbar-link" href="#forth-von">Unsere Tarife</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="navbar-link" href="">Unsere Empfehlungen</a>
+                            <a class="navbar-link" href="#fifth-von">Unsere Empfehlungen</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="navbar-link" href="">Noch Fragen?</a>
+                            <a class="navbar-link" href="#eighth-von">Noch Fragen?</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="sticky-bar" style="transform: translateY(0%);">
+    <section class="sticky-section">
         <p>Zuverlässig abgesichert auf zwei Rädern</p>
         <a class="sticky-btn" target="_blank" href="">Jetzt Tarif
             berechnen
@@ -55,11 +67,13 @@
                 </div>
                 <div class="content">
                     <div class="content-first">
-                        <h1 class="text-uppercase">HDI MOTORRADVERSICHERUNG</h1>
-                        <h4>Entspannt in der Kurve liegen</h4>
+                        <div class="content-first-text">
+                            <h1>HDI MOTORRADVERSICHERUNG</h1>
+                            <h4>Entspannt in der Kurve liegen</h4>
+                        </div>
                     </div>
                     <div class="flex-section">
-                        <div class="content-first-data">
+                        <div class="content-first-text content-first-data">
 
                             <ul>
                                 <li>
@@ -77,8 +91,11 @@
 
                             </ul>
                             <div class="content-btn">
-                                <a class="btn btn-first" href="">Zu den Tarifen</a>
-                                <a class="btn btn-second" target="_blank" href="">Jetzt Tarif berechnen</a>
+                                <a class="btn btn-first" href="#forth-von" style="scroll-behavior: smooth;">Zu den
+                                    Tarifen</a>
+                                <a class="btn btn-second" target="_blank"
+                                    href="https://www.hdi.de/apps/versicherungsrechner/kraftrad/hdi/?mkv_produktkey=2">Jetzt
+                                    Tarif berechnen</a>
                             </div>
                         </div>
                         <div class="content-first-image">
@@ -86,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-second" id="">
+                <div class="content-second" id="first-von">
                     <div class="content-second-wrap">
                         <p>1 von 8 </p>
                         <h3>Mit freiem Kopf Gas geben </h3>
@@ -95,7 +112,7 @@
                             Straßen
                             Deutschlands. Weil Sie wissen, dass Sie für alle Fälle gewappnet sind. </p>
                     </div>
-                    <div class="features-content">
+                    <div class="features-content no-display-small">
                         <div class="feature">
                             <img src="images/images/Icon_Unfall_sorgenfrei.svg" alt="">
                             <h4> Für den Fall des Unfalls sorgenfrei</h4>
@@ -130,6 +147,43 @@
                             </p>
                         </div>
                     </div>
+                    <!-- <div class="features-content no-display-big owl-carousel owl-theme  " id="feature-carousel">
+                        <div class="feature" id="feature1">
+                            <img src="images/images/Icon_Unfall_sorgenfrei.svg" alt="">
+                            <h4> Für den Fall des Unfalls sorgenfrei</h4>
+                            <p>
+                                Es kracht – alle 12 Sekunden auf Deutschlands Straßen. Schützen Sie Sich davor und vor
+                                vielem mehr.
+                                <span class="text-bold"> 95 % zufriedene HDI-Kunden </span> sprechen für sich. Wir
+                                sorgen uns um Sie
+                                und Ihr Motorrad.
+                            </p>
+                        </div>
+                        <div class="feature" id="feature2">
+                            <img src="images/images/Icon_Werkstattservice.svg" alt="">
+                            <h4> In Windeseile zurück auf die Straße
+                            </h4>
+                            <p>
+
+                                Dank HDI sind Sie in jedem Fall schnell wieder mobil. Unser <span
+                                    class="text-bold">Schadenservice</span> lässt technische Defekte an Ihrer Maschine
+                                im Handumdrehen
+                                und kompetent beheben.
+                            </p>
+                        </div>
+                        <div class="feature" id="feature3">
+                            <img src="images/images/Icon_Flexibel.svg" alt="">
+                            <h4> So flexibel wie Ihr Fahrstil
+                            </h4>
+                            <p>
+
+                                Die HDI Motorradversicherung sichert Sie so ab, wie es zu Ihnen passt. Mit <span
+                                    class="text-bold">flexiblen Tarifen</span> und allen Gefahren im Blick. Damit Sie
+                                unbeschwert den
+                                Fahrtwind genießen können.
+                            </p>
+                        </div>
+                    </div> -->
                 </div>
                 <div class="content-third">
                     <div class="flex-section">
@@ -149,7 +203,8 @@
                                 und alle Formalia der Wildkollision kümmert sich die Motorradversicherung der HDI.
                             </p>
                             <div class="">
-                                <a href="" target="_blank" class="btn btn-third">Jetzt Tarif berechnen</a>
+                                <a href="https://www.hdi.de/apps/versicherungsrechner/kraftrad/hdi/?mkv_produktkey=2"
+                                    target="_blank" class="btn btn-third">Jetzt Tarif berechnen</a>
                             </div>
                         </div>
                         <div id="" class="content-third-image">
@@ -179,7 +234,8 @@
                                 HDI – noch einmal gutgegangen, Peter!
                             </p>
                             <div class="sm-center">
-                                <a href="" target="_blank" class="btn btn-third">Jetzt Tarif berechnen</a>
+                                <a href="https://www.hdi.de/apps/versicherungsrechner/kraftrad/hdi/?mkv_produktkey=2"
+                                    target="_blank" class="btn btn-third">Jetzt Tarif berechnen</a>
                             </div>
                         </div>
                     </div>
@@ -205,7 +261,8 @@
                                 diesmal etwas geduldiger – neue Wege erkunden.
                             </p>
                             <div class="">
-                                <a href="" target="_blank" class="btn btn-third">Jetzt Tarif berechnen</a>
+                                <a href="https://www.hdi.de/apps/versicherungsrechner/kraftrad/hdi/?mkv_produktkey=2"
+                                    target="_blank" class="btn btn-third">Jetzt Tarif berechnen</a>
                             </div>
                         </div>
                         <div id="" class="content-fifth-image">
@@ -217,7 +274,7 @@
         </section>
         <section class="online-section">
             <div class="content">
-                <div class="online-section-header" id="">
+                <div class="online-section-header" id="third-von">
                     <p class="head">3 von 8</p>
                     <h3 class="">online In fünf Minuten<br>zur eVB-Nummer </h3>
                     <p>Sichern Sie sich ab und führen Ihre Maschine guten Gewissens aus</p>
@@ -241,7 +298,7 @@
                                     <li class="text-data">Vertrag online abschließen <br>und absichern</li>
                                 </ul>
                             </div>
-                            <div class="wrapper-data align-items-end d-flex">
+                            <div class="online-data">
                                 <ul class="flex-section flex-item">
                                     <li class="online-image3"><img src="images/HDI_LP_KFZ_Prozess_Icons-02.svg" alt="">
                                     </li>
@@ -251,12 +308,46 @@
                             </div>
                         </div>
                     </div>
+                    <!-- <div class="none-data">
+                        <div class="owl-carousel owl-theme" id="online-carousel">
+                            <div class="item">
+                                <ul class="flex-section flex-item custom-item">
+                                    <li class="online-image1"><img src="images/HDI_LP_KFZ_Prozess_Icons-03.svg" alt="">
+                                    </li>
+                                    <li class="number-data">1.</li>
+                                    <li class="text-data">Tarif online anpassen <br>und berechnen</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul class="flex-section flex-item custom-item">
+                                    <li class="online-image2"><img src="images/HDI_LP_KFZ_Prozess_Icons-01.svg" alt="">
+                                    </li>
+                                    <li class="number-data">2.</li>
+                                    <li class="text-data">Direkt online abschließen <br>und absichern</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul class="d-flex align-items-center custom-item">
+                                    <li class="online-image3"><img src="images/HDI_LP_KFZ_Prozess_Icons-02.svg" alt="">
+                                    </li>
+                                    <li class="number-data">3.</li>
+                                    <li class="text-data">Vertrag im HDI Online- <br>Kundenportal managen</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="owl-theme owl-them3">
+                            <div class="owl-controls">
+                                <div class="online-nav owl-nav"></div>
+                            </div>
+                        </div> -->
+                    </div>
                 </div>
+            </div>
         </section>
-        <section class="insurance-section">
+        <section class="insurance-bg p-tb-150 insurance-section">
             <div class="content">
                 <div class="insurance-detail">
-                    <div class="insurance-head" id="unseretarife">
+                    <div class="insurance-head" id="forth-von">
                         <p>4 von 8</p>
                         <h3>
                             Die richtige ABsicherung für <br> sie und ihr Motorrad
@@ -277,8 +368,40 @@
                                     <div class="bg-white">
                                         <h3 class="insurence-detail-heading first-heading heading-font">
                                             Motor Komfort
-                                            <span style="display:block;" class="sub-font">Umfangreiche Absicherung</span>
+                                            <span style="display:block;" class="sub-font">Umfangreiche
+                                                Absicherung</span>
                                         </h3>
+                                        <h3 class="insurence-detail-heading first-heading heading-font sticky-area"
+                                            id="orange-data" style="display: none;">
+                                            Motor Komfort
+                                            <span style="display:block;" class="sub-font">Umfangreiche
+                                                Absicherung</span>
+                                        </h3>
+                                        <h5>ab <span>7,06 €*</span> / Monat</h5>
+                                        <h6>ab 84,66 €* / Jahr</h6>
+                                        <div class="btn-data">
+                                            <a href="https://www.hdi.de/apps/versicherungsrechner/pkw/hdi/?mkv_produktkey=2"
+                                                target="_blank" class="btn btn-first btn-data-margin">Jetzt Tarif
+                                                berechnen</a>
+                                        </div>
+                                        <div class="insurence-detail-content">
+                                            <ul>
+                                                <li>
+                                                    <span class="text-bold">100 Mio. €</span>
+                                                    Versicherungssumme, bei Personenschäden bis zu
+                                                    <span class="text-bold">15 Mio. €</span>
+                                                </li>
+                                                <li>
+                                                    Verzicht auf den Einwand der groben Fahrlässigkeit
+                                                </li>
+                                                <li>
+                                                    Tierbiss (inkl. Marderbiss) und Folgeschäden bis
+                                                    <span class="text-bold">10.000 €</span>
+                                                </li>
+                                                <li>Zusammenstoß mit allen Tieren</li>
+                                                <li>Erstattung für beschädigte Leuchtmittel</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -297,14 +420,871 @@
                                             <span style="display:block;" class="sub-font">Umfassender
                                                 Premium-Schutz</span>
                                         </h3>
+                                        <h3 class="insurence-detail-heading  heading-font sticky-area" style="display: none;" id="green-data">
+                                            Motor Premium
+                                            <span style="display:block;" class="sub-font">Umfassender
+                                                Premium-Schutz</span>
+                                        </h3>
+                                        <h5>ab <span>6,83 €*</span> / Monat</h5>
+                                        <h6>ab 81,96 €* / Jahr</h6>
+                                        <div class="btn-data">
+                                            <a href="https://www.hdi.de/apps/versicherungsrechner/pkw/hdi/?mkv_produktkey=2"
+                                                target="_blank" class="btn btn-third btn-data-margin">Jetzt Tarif
+                                                berechnen
+                                            </a>
+                                        </div>
+                                        <div class="insurence-detail-content">
+                                            <ul>
+                                                <li>
+                                                    <span class="text-bold">100 Mio. €</span>
+                                                    Versicherungssumme, bei Personenschäden bis zu
+                                                    <span class="text-bold">15 Mio. €</span>
+                                                </li>
+                                                <li>
+                                                    Verzicht auf den Einwand der groben Fahrlässigkeit
+                                                </li>
+                                                <li>
+                                                    Tierbiss (inkl. Marderbiss) und Folgeschäden bis
+                                                    <span class="text-bold"> 3.000 €</span>
+                                                </li>
+                                                <li>Zusammenstoß mit allen Tieren</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="traffic-section">
+                    <div class="traffic" id="traffic-expand">
+                        <div class="traffic-title">
+                            <span class="flex-section">
+                                <a class="traffic-toggle" href="#traffic">Tarifdetails ausklappen</a>
+                            </span>
+                        </div>
+                        <div id="traffic" class="traffic-content">
+                            <div class="traffic-top">
+                                <div class="wrapper">
+                                    <div class="traffic-head">
+                                        <div class="traffic-main-heading">
+                                            <h3>KFZ-Haftpflichtversicherung</h3>
+                                        </div>
+
+                                    </div>
+                                    <div class="grid">
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Maximalbetrag, der im Schadenfall für Sach-, Vermögens- und Personenschäden gezahlt wird.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                100 Mio. Euro pauschale Versicherungssumme
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text="Maximalbetrag, der je geschädigte Person, innerhalb der Pauschaldeckung von 100. Mio. Euro, gezahlt wird.">
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Ver­sich­erungs­summe je geschädigter Person
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span>15 Mio. €</span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span>15 Mio. €</span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text="Versichert Fahrten mit Mietwagen im europäischen Ausland und hebt die Leistungen der Kraftfahrzeug-Haftpflichtversicherung auf deutsches Niveau an (Leistungen sind im Ausland oft niedriger)">
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Mallorca-Police
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span>
+                                                vertragliche Ver­sich­erungs­summe
+                                            </span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span>
+                                                vertragliche Ver­sich­erungs­summe
+                                            </span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text="Versicherungsschutz besteht für Sachschäden, die vom Versicherungsnehmer oder mitversicherten Personen an auf den Versicherungsnehmer zugelassenen Fahrzeugen (auch auf Ihrem eigenen Grundstück) verursacht werden.">
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Erweiterte Eigen­schaden­deckung (inkl. Schäden auf
+                                                eigenem Grund)
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/x-sign.svg" alt="" class="" /></span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                    </div>
+                                    <div class="traffic-head">
+                                        <div class="traffic-sub-heading">
+                                            <h3>Fahrzeugversicherung / Kaskoversicherung</h3>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Zusätzlich mitversichert sind Fahrzeugteile und Fahrzeugzubehör, welche nachträglich fest im Fahrzeug eingebaut oder nachträglich fest am Fahrzeug angebaut wurden, sowie Spezialausrüstungen.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Beitragsfreie Mitversicherung von nach-träglich eingebauter
+                                                Sonderausstattung
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span>bis 10.000 €</span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span>bis 10.000 €</span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Versichert ist die unmittelbare Einwirkung von Sturm, Hagel, Blitzschlag, Schneelawinen (ohne Dachlawinen), Murgang, Erdrutsch oder Überschwemmung auf das Fahrzeug. Eingeschlossen sind Schäden, die dadurch verursacht werden, dass durch diese Naturgewalten Gegenstände auf oder gegen das Fahrzeug geworfen werden. Muren sind Abgänge von Geröll, Schlamm und Gesteinsmassen.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Mitversicherung von Schneelawinen, Murgang und Erdrutsch
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Zusätzlich zu Schneelawinen sind auch Schäden durch Dachlawinen mitversichert. Dachlawinen sind ein von Dächern naturbedingtes Abgleiten oder Abstürzen von Schnee- oder Eismassen. Hierzu zählen auch Eiszapfen und Eisplatten.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Mitversicherung von Dachlawinen
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/x-sign.svg" alt="" class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Abgesichert sind nicht nur Schäden mit Haarwild, sondern mit Tieren aller Art (z. B. Pferde, Schafe, Kühe, etc.).'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Zusammenstoß mit Haarwild / Tieren
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Unter Glasbruch versteht man Bruchschäden an der Verglasung. Als Verglasung gelten Glas- und Kunststoffscheiben (z. B. Front-, Heck-, Dach-, Seiten- und Trennscheiben), Spiegelglas und Abdeckungen von Leuchten. Der Glasbruch umfasst auch Sonderausrüstungen, wie Heckscheibenheizung, Radioantenne in der Frontscheibe (einschließlich Montagekosten) die bei einem Reparaturschaden anfallen.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Glasbruch
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Nach einem Glasbruchschaden wird auch das unter Umständen beschädigte Leuchtmittel (inkl. Xenon-, LED- und Laserlicht) ersetzt.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Erstattung für beschädigte Leuchtmittel bei Glasbruch
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/x-sign.svg" alt="" class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Versichert sind durch Marderbiss/Tierbiss unmittelbar verursachte Schäden am Fahrzeug sowie ausgelöste Folgeschäden.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Schäden am Fahrzeug durch Marder- / Tierbiss inkl. Folgeschäden
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class="box justify-content"><img src="images/Checkmark_green.svg"
+                                                    alt="" class="" />
+                                                <span class="item-padding">/</span>
+                                                <span class="item-padding">bis 3.000 € </span></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class="box justify-content"><img src="images/Checkmark_green.svg"
+                                                    alt="" class="" /><span class="item-padding">/</span>
+                                                <span class="item-padding">bis 3.000 € </span></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class="box">
+                                                <picture class="info-content"
+                                                    data-text='Haftung für Schäden, die durch grobe Fahrlässigkeit entstanden sind. Hierzu gehören bspw. das Überfahren einer roten Ampel oder das Telefonieren ohne Freisprecheinrichtung.'>
+                                                    <img src="images/Information_i.svg" class="info-img" alt="icon">
+                                                </picture>
+                                                Verzicht auf den Einwand der groben Fahrlässigkeit
+                                            </span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                        <div class="grid-content">
+                                            <span class=""><img src="images/Checkmark_green.svg" alt=""
+                                                    class="" /></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="plan-section">
+                    <p class="first-p" id="fifth-von">5 von 8</p>
+                    <h3>TUNEN SIE IHREN TARIF</h3>
+                    <p class="second-p">Noch mehr Schutz mit flexiblen Zusatzoptionen*</p>
+                </div>
+                <div class="plan-slider plan-arrow">
+                    <div class="owl-carousel owl-theme" id="plan-carousel">
+                        <div class="plan">
+                            <div class="plan-card">
+                                <div class="plan-data">
+                                    <div class="plan-detail">
+                                        <div class="front part">
+                                            <img src="images/images/Auslandschaden-Schutz_Icon.svg" alt="" />
+                                        </div>
+                                        <div class="back part center">
+                                            <p>
+                                                Regulierung von Personen- und Sachschäden, verursacht durch ein im
+                                                Ausland zugelassenes
+                                                Fahrzeug, nach deutschem Recht. Dies gilt auch bei Schäden, die Ihnen in
+                                                Deutschland durch ein
+                                                im Ausland zugelassenes Fahrzeug entstehen.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>AUSLANDSCHADEN-SCHUTZ</h4>
+                            </div>
+                        </div>
+
+                        <div class="plan">
+                            <div class="plan-card">
+                                <div class="plan-data">
+                                    <div class="plan-detail">
+                                        <div class="front part">
+                                            <img src="images/images/Mietwagenschutz_Icon.svg" alt="" />
+                                        </div>
+                                        <div class="back part center">
+                                            <p>
+                                                Bei einem Kasko-Schaden (mit Ausnahme Glasbruch) gibt es einen
+                                                Mietwagenzuschuss in Höhe von
+                                                maximal 700 Euro (14 Tage à 50 Euro) bzw. eine
+                                                Nutzungsausfallentschädigung in Höhe von maximal
+                                                350 Euro (14 Tage à 25 Euro).
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>MIETWAGEN-SCHUTZ</h4>
+                            </div>
+                        </div>
+
+                        <div class="plan">
+                            <div class="plan-card">
+                                <div class="plan-data">
+                                    <div class="plan-detail">
+                                        <div class="front part">
+                                            <img src="images/images/Mobil_Icon.svg" alt="" />
+                                        </div>
+                                        <div class="back part center">
+                                            <p>
+                                                Der Mobilitäts-Schutz sichert Ihnen umfassende Hilfeleistungen, auf die
+                                                Sie sich unterwegs
+                                                verlassen können. Dazu gehören insbesondere Pannenhilfe, Abschleppen und
+                                                Bergen des Fahrzeugs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>MOBILITÄTS-SCHUTZ</h4>
+                            </div>
+                        </div>
+
+                        <div class="plan">
+                            <div class="plan-card">
+                                <div class="plan-data">
+                                    <div class="plan-detail">
+                                        <div class="front part">
+                                            <img src="images/images/Mobil-Plus_Icon.svg" alt="" />
+                                        </div>
+                                        <div class="back part center">
+                                            <p>
+                                                Erweiterte Schutzbrief- und Assistanceleistungen, z. B. höhere
+                                                Entschädigungen, Kostenübernahme
+                                                bei Falschbetankung oder Krankenbesuch, Hilfe bei Naturkatastrophen
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>MOBILITÄTS-SCHUTZ PLUS</h4>
+                            </div>
+                        </div>
+
+                        <div class="plan">
+                            <div class="plan-card">
+                                <div class="plan-data">
+                                    <div class="plan-detail">
+                                        <div class="front part">
+                                            <img src="images/images/Verkehrs-Rechtsschutzversicherung_Icon.svg"
+                                                alt="" />
+                                        </div>
+                                        <div class="back part center">
+                                            <p>
+                                                Schützt Sie vor dem Kostenrisiko eines Rechtsstreits, z. B. bei
+                                                Streitigkeiten nach einem
+                                                Unfall, Bußgeld- oder Strafverfahren oder bei Streitigkeiten aus Kauf,
+                                                Reparatur und
+                                                Finanzierung.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Verkehrs- <br>
+                                    Rechtsschutzversicherung</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://www.hdi.de/apps/versicherungsrechner/pkw/hdi/?mkv_produktkey=2" target="_blank"
+                            class="btn btn-third">Jetzt Tarif berechnen
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
         </section>
+        <section class="optimal-section">
+            <div class="content">
+                <div class="optimal-head">
+                    <p class="firs-heading">6 von 8</p>
+                    <h3 class="second-heading">DER OPTIMALE SCHUTZ FÜR 125er & CO </h3>
+
+                    <p class="third-heading">Einfach abschließen und genießen:
+                    </p>
+                    <p class="forth-heading">Ihre Versicherung für Leichtkrafträder über 50 ccm bis 125 ccm</p>
+                </div>
+                <div style="margin-top: 46px;">
+                    <div class="wrapper" id="sec6-carousel">
+                        <div class="optimal-data">
+                            <ul>
+                                <li>
+                                    <span class="text-bold">Rundum sorglos </span> <br>
+                                    Umfangreiche Service-Leistungen
+                                    für Sie und Ihr Leichtkraftrad
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="optimal-data">
+                            <ul>
+                                <li>
+                                    <span class="text-bold">Umfangreiche Leistungen </span> <br>
+                                    Unsere Kasko-Versicherung schützt Ihr Motorrad gegen Diebstahl und andere Schäden
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="optimal-data">
+                            <ul>
+                                <li>
+                                    <span class="text-bold">Günstige Tarife </span> <br>
+                                    Ihr Beitragssatz sinkt mit der Anzahl der schadenfreien Jahre
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center ">
+                        <a href="https://www.hdi.de/apps/versicherungsrechner/pkw/hdi/?mkv_produktkey=2" target="_blank"
+                            class="btn btn-third">Jetzt Tarif berechnen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="change-section">
+
+            <div class="content">
+                <div class="flex-section">
+                    <div class="left-side">
+
+                        <div class="change-head" id="nochfragen">
+                            <p class="first-heading">7 von 8</p>
+                            <h3 class="second-heading">JETZT ZUR HDI <br>MOTORRADVERSICHERUNG WECHSELN</h3>
+
+                            <p class="third-heading">Individuelle Absicherung und hervorragender Service</p>
+                            <p class="details">HDI bietet Ihnen über <span class="text-bold"> 100 Jahre
+                                    Kompetenz</span> und
+                                <span class="text-bold">Erfahrung.</span>
+                                Wir versichern Sie und Ihr Motorrad zuverlässig und helfen im Schadenfall schnell
+                                und kompetent.
+                                Entdecken Sie unsere Produktlinien und individualisieren Sie Ihren
+                                Versicherungsschutz. Mit HDI
+                                versichern Sie Sich passend zu Ihrer Lebenssituation. Wechseln Sie jetzt zur HDI!
+                            </p>
+                        </div>
+                        <div class="change-img">
+                            <ul>
+                                <li><img src="images/images/Franke_Bornberg_Motor_Premium.png" alt=""
+                                        class="aword-third-img"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div>
+                            <ul>
+                                <li>
+                                    <span class="text-bold">Verlässlich </span> <br>
+                                    Jahrelange Erfahrung als Motorrad-Versicherer
+                                </li>
+                                <li>
+                                    <span class="text-bold">Persönliche Beratung </span> <br>
+                                    Bequem von zu Hause oder direkt vor Ort
+                                </li>
+                                <li>
+                                    <span class="text-bold">Online-Vertragsverwaltung </span> <br>
+                                    Rund um die Uhr Vertragsdaten einsehen, verwalten oder ändern
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="change-section-img">
+                <img src="images/images/Crew_Illustration_static.svg" alt="">
+            </div>
+        </section>
+        <section class="faq-section" id="eighth-von">
+            <div class="content" id="question-container">
+                <div class="optimal-head">
+                    <p class="firs-heading">8 von 8</p>
+                    <h4 class="second-heading">TIPPS & HÄUFIG GESTELLTE FRAGEN</h4>
+                </div>
+                <div class="question-arrow">
+                    <a id="question-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                    <a id="question-next"> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="question-slider owl-carousel owl-theme tips-lg" id="que-carousel">
+                    <div>
+                        <p class="slider-head">Tipps für die richtige Fahrtechnik</p>
+                        <div class="flex-section">
+                            <div class="question" id="tip11">
+                                <ul>
+                                    <li>
+                                        <span class="text-bold">Defensiv fahren – </span> Fahren Sie defensiv und
+                                        bremsbereit. Wegen ihrer
+                                        schmalen Silhouette können andere
+                                        Verkehrsteilnehmer wie Pkw- oder Lkw-Fahrer Sie beim Linksabbiegen schnell
+                                        übersehen und einen
+                                        Unfall
+                                        verursachen.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Kurven – </span>Reduzieren Sie die Geschwindigkeit vor
+                                        der Kurve. Dann sind
+                                        die
+                                        Fliehkräfte, denen Sie durch
+                                        Schräglage entgegenwirken müssen, niedriger.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="question" id="tip12">
+                                <ul>
+                                    <li>
+                                        <span class="text-bold">Bremsverhalten –</span> Synchronisieren Sie Vorder- und
+                                        Hinterradbremsen.
+                                        Anfänger neigen dazu, hinten zu stark
+                                        und vorne zu schwach zu bremsen.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Touren – </span>Am Anfang nicht übertreiben: Unternehmen
+                                        Sie zunächst Touren
+                                        von
+                                        zwei bis drei Stunden Dauer
+                                        und legen Sie Pausen ein. Steigern Sie sich allmählich.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Überholen –</span> Verzichten Sie auf riskante
+                                        Überholmanöver.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="slider-head">Kauftipps für Motorradeinsteiger</p>
+                        <div class="flex-section">
+                            <div class="question" id="tip13">
+                                <ul>
+                                    <li>
+                                        <span class="text-bold"> Sitzhöhe – </span>Die Sitzhöhe ist optimal, wenn bei
+                                        durchgedrückten Beinen beide Fußsohlen den Boden berühren.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Sitzposition – </span>Eine aufrechte Sitzposition sorgt
+                                        für gute
+                                        Übersicht und entspannte Körperhaltung.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Motorrad Schwerpunkt –</span> E-Bikes mit niedrigem
+                                        Schwerpunkt verzeihen
+                                        Fahrfehler. Selbst in riskanten
+                                        Situationen behalten Sie die Kontrolle.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="question" id="tip14">
+                                <ul>
+                                    <li>
+                                        <span class="text-bold"> Gewicht –</span> Motorräder mit niedrigem Gewicht
+                                        lassen sich
+                                        souverän handhaben.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">ABS – </span>Bei neu zugelassenen Motorrädern über 125
+                                        ccm ist ein
+                                        Antiblockiersystem (ABS) seit 2017 Pflicht.
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Lenker – </span>Ein handlicher Lenker unterstützt
+                                        schnelle Ausweichmanöver
+                                        und eine sichere Kurvenlage.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="faq-head">
+                    <h3>FAQ</h3>
+                    <div class="faq-data">
+                        <div class="que-ans">
+                            <div class="faq-que">
+                                <p class="faq-toggle">
+                                    <span class="swidth">Wie finde ich meine aktuelle Schadenfreiheitsklasse
+                                        (SF-Klasse)?</span>
+                                </p>
+                            </div>
+                            <div id="faq1" class="faq-ans-content">
+                                <p>Ihre aktuelle Schadenfreiheitsklasse finden Sie in der letzten
+                                    Beitragsrechnung
+                                    Ihres
+                                    Motorrad-Versicherers.</p>
+                            </div>
+                        </div>
+                        <div class="que-ans">
+                            <div class="faq-que">
+                                <p class="faq-toggle">
+                                    <span class="swidth">Welche Schadenfreiheitsklasse (SF-Klasse) nehme ich
+                                        als
+                                        Grundlage für die Berechnung meiner
+                                        neuen Motorrad-Versicherung bei HDI?</span>
+                                </p>
+                            </div>
+                            <div id="faq1" class="faq-ans-content">
+                                <p>Als Grundlage der Berechnung nehmen Sie die SF-Klasse, welche Sie auf der
+                                    letzten
+                                    Beitragsrechnung
+                                    Ihres Motorrad-Versicherers finden, und addieren.</p>
+
+                                <p>Ausnahmen: Es gab im laufenden Jahr einen Schadensfall und/oder es hat
+                                    eine
+                                    Sondereinstufung
+                                    stattgefunden bspw. in Form eines Rabattretters, Zweitwagens, etc.. In
+                                    diesen
+                                    Fällen
+                                    erkundigen Sie
+                                    sich bitte bei Ihrem aktuellen Motorrad-Versicherer nach Ihrer
+                                    SF-Klasse.</p>
+                            </div>
+                        </div>
+                        <div class="que-ans">
+                            <div class="faq-que">
+                                <p class="faq-toggle">
+                                    <span class="swidth">Wie bekomme ich die eVB-Nummer, wenn ich mit meiner
+                                        Motorrad-Versicherung zu HDI wechseln
+                                        möchte?</span>
+                                </p>
+                            </div>
+                            <div id="faq1" class="faq-ans-content">
+                                <p>Wenn Sie mit Ihrem bereits zugelassenen Motorrad zu HDI wechseln, wird
+                                    die
+                                    eVB-Nummer
+                                    nach
+                                    Abschluss der Versicherung automatisch von uns an das
+                                    Kraftfahrtbundesamt
+                                    übermittelt. Sie müssen
+                                    nichts tun.</p>
+
+                                <p>Im Falle einer bspw. Neuanmeldung oder Ummeldung eines Motorrads
+                                    benötigen Sie
+                                    für
+                                    die
+                                    Zulassungsstelle eine eVB-Nummer. Diese erhalten Sie am Ende des
+                                    Onlineantrags.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="que-ans">
+                            <div class="faq-que">
+                                <p class="faq-toggle">
+                                    <span class="swidth">Welche Unterlagen benötige ich, um die
+                                        Motorrad-Versicherung
+                                        online bei HDI
+                                        abzuschließen?</span>
+                                </p>
+                            </div>
+                            <div id="faq1" class="faq-ans-content">
+                                <p>Um alle benötigten Angaben schnell ausfüllen zu können, legen Sie sich am
+                                    besten
+                                    Ihren Fahrzeugschein
+                                    (für die benötigen Angaben zu Ihrem Fahrzeug) sowie die letzte
+                                    Beitragsrechnung
+                                    Ihrer
+                                    Motorrad-Versicherung (zur Ermittlung Ihrer aktuellen SF-Klasse) bereit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="que-ans">
+                            <div class="faq-que">
+                                <p class="faq-toggle">
+                                    <span class="swidth">* Fußnote:</span>
+                                </p>
+                            </div>
+                            <div id="faq1" class="faq-ans-content">
+                                <p>
+
+                                    <span>Hinweise zur Preisermittlung:<br></span>
+                                    Berechnungsgrundlagen HDI.de Online-Rechner (Stand: 14.01.2020): HDI
+                                    Motor
+                                    Komfort/Premium
+                                    Online<br><br>
+
+                                    Honda CBF 600, Haftplicht + Teilkasko, Nutzung privat, Halter + Fahrer:
+                                    Versicherungsnehmer,
+                                    Versicherungsnehmer: 48 Jahre + Führerschein mit 38, Wohneigentum:
+                                    Einfamilienhaus,
+                                    Abstellort:
+                                    Einzel-/Doppelgarage, Beruf: sonstige, PLZ: 30900, Versicherungsbeginn:
+                                    01.04.2020,
+                                    Erstzulassung:
+                                    13.02.2010, SF Haftplicht: 10, 9.000 km Fahrleistung, SB Teilkasko: 150
+                                    Euro,
+                                    monatlicher Beitrag
+                                    bei jährlicher Zahlweise und weitere Angaben
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-section">
+                <div class="footer-img">
+                    <img src="images/HDI_RGB-01.svg" alt="">
+                </div>
+                <ul class="footer-data">
+                    <li class="text-bold">HDI Versicherung AG </li>
+                    <li>© 2020 HDI Versicherung AG</li>
+                </ul>
+                <ul class="footer-social">
+                    <li class="text-bold">Social Media</li>
+                    <li>
+                        <a href="https://www.facebook.com/hdiversicherung.de/" target="_blank">
+                            <img id="facebook" alt="" src="images/footer-facebook.png" onmouseover="hover(this);"
+                                onmouseout="unhover(this);" />
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCws5NyTnQYF_YEAGRMiPGLg" target="_blank">
+                            <img id="youtube" alt="" src="images/footer-youtube.png" onmouseover="hover(this);"
+                                onmouseout="unhover(this);" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li><a href="https://www.hdi.de/privatkunden/kontakt/index" target="_blank">Kontakt</a></li>
+                    <li><a href="https://www.hdi.de/privatkunden/impressum" target="_blank">Impressum</a></li>
+                    <li><a href="https://www.hdi.de/privatkunden/datenschutz" target="_blank">Datenschutz</a></li>
+                </ul>
+
+            </div>
+        </footer>
+
     </main>
 </body>
 
 </html>
+<script>
+        var acc = document.getElementsByClassName("traffic-toggle");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function (e) {
+
+            e.preventDefault();
+            this.classList.toggle("active");
+
+            var panel = document.getElementsByClassName("traffic-content")[0];
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+<script>
+    const links = document.querySelectorAll(".navbar-menu ul a, .content-btn a");
+
+for (const link of links) {
+    link.addEventListener("click", clickHandler);
+}
+
+function clickHandler(e) {
+    e.preventDefault();
+    const href = this.getAttribute("href");
+    console.log(href);
+    const offsetTop = document.querySelector(href).offsetTop;
+
+    scroll({
+        top: offsetTop,
+        behavior: "smooth"
+    });
+}
+</script>
+<script>
+    var acc = document.getElementsByClassName("faq-que");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+
+
+
+            } else {
+                let active = document.querySelectorAll(".faq-data .faq-que.active");
+                for (let j = 0; j < active.length; j++) {
+                    active[j].classList.remove("active");
+                    active[j].nextElementSibling.style.maxHeight = null;
+
+
+                }
+                this.classList.toggle("active");
+                panel.style.maxHeight = panel.scrollHeight + "px";
+
+
+            }
+        });
+    }
+</script>
+
+<script>
+     let queCarousel = $('#que-carousel')
+    $(document).ready(function () {
+        $('#que-carousel').owlCarousel({
+            loop: true,
+            dots: true,
+
+            slideBy: 1,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 1
+                },
+                992: {
+                    items: 1
+                },
+            }
+        })
+    });
+    $("#question-next").click(() => {
+        queCarousel.trigger('next.owl.carousel');
+    })
+    $("#question-prev").click(function () {
+        queCarousel.trigger('prev.owl.carousel');
+    })
+</script>
