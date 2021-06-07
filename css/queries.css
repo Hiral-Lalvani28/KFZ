@@ -10,7 +10,7 @@
         max-width: 540px;
     }
     .plan-data {
-        height: 300px;
+        height: 230px;
     }
     .nav-controls {
         padding: 35px 35px;
@@ -65,8 +65,25 @@
 }
 
 @media only screen and (max-width: 1024px) {
-
-    .change-head h3 {
+    .change-head .details{
+        
+            width: 100%;
+            height: 100%;
+            font-size: 17px;
+            line-height: 1.35;
+        
+    }
+    .change-head .third-heading {
+        font-size: 19px;
+        line-height: 1.39;
+        padding: 0 52px;
+    }
+    .change-head .details
+    .change-head {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .change-head .second-heading {
         font-size: 24px;
         line-height: 1.25;
         padding: 0 20px;
@@ -233,6 +250,22 @@
 
 @media only screen and (max-width: 767px) {
 
+    .change-head .third-heading
+    {
+        font-size: 19px;
+    line-height: 1.39;
+    padding: 0 52px;
+    }
+    .change-img ul li {
+        width: 100%;
+    }
+    .change-img img {
+        width: 132px;
+        height: 95px;
+    }
+    .main-data .owl-theme .custom-nav {
+        top: 36%;
+    }
     a.navbar-link {
         color: #fff;
         font-size: 19px;
@@ -288,7 +321,7 @@
         max-width: 346px;
         margin: 0 auto;
     }
-    .change-head h3 {
+    .change-head .second-heading {
         font-size: 24px;
         line-height: 1.25;
         padding: 0;
@@ -618,8 +651,9 @@
         line-height: 1.25;
     }
     .change-img {
-        width: 132px;
-        height: 95px;
+        margin-top: 30px;
+    width: 100%;
+    float: left;
     }
     .change-img ul {
         justify-content: center;
@@ -977,10 +1011,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .change-head {
-        max-width: 85%;
-        margin: 0 auto;
-    }
+    
     .sticky-area {
         width: 295px;
     }
@@ -1009,6 +1040,10 @@
     .nav-controls {
         padding: 35px 5px;
     }
+    .question-arrow {
+        top: 460px;
+        padding: 0 30px;
+    }
     #que1,
     #que3 {
         margin-right: auto;
@@ -1027,7 +1062,7 @@
         padding-right: 5px;
         padding-left: 5px;
     }
-    .change-head h3 {
+    .change-head .second-heading {
         font-size: 28px;
     }
     .insurence-detail-data {
@@ -1264,7 +1299,7 @@
     .btn-first {
         padding: 9px 50px 10px 5px;
     }
-    .change-head h3 {
+    .change-head .second-heading {
         font-size: 28px;
     }
 }
@@ -1502,6 +1537,9 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    .sticky-area {
+        width: 354px;
+    }
     .content {
         max-width: 1140px;
     }

@@ -49,6 +49,12 @@ body {
   -webkit-transition: all 0.1s ease;
   transition: all 0.4s ease;
 }
+/* .top-nav .fixed-top.shrink {
+  padding: 5px 65px 10px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.1s ease;
+  box-shadow: -1px -2px 6px 2px #454545;
+} */
 .bg-wh {
   background-color: #fff!important;
 }
@@ -1259,6 +1265,20 @@ main {
   justify-content: space-between;
   padding: 40px 5px;
 }
+
+/* #question-container h4{
+  font-size: 24px;
+}
+#question-container .sub-title {
+  font-stretch: condensed;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.94;
+  color: #000000;
+} */
 .question-controls,
 .nav-controls,
 .side-text-controls {
@@ -1742,7 +1762,7 @@ button:focus {
 }
 .main-data .owl-theme .custom-nav {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 0;
   right: 0;
 }
