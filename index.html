@@ -112,7 +112,7 @@
                                 </div>
                             </div>
                             <div id="svg-animation2" class="content-first-image">
-                                <object type="image/svg+xml" data="images/animation/Crew.svg"></object>
+                                <object id="svg2" type="image/svg+xml" data="images/animation/Crew.svg"></object>
                             </div>
                         </div>
                     </div>
@@ -229,6 +229,7 @@
                                 </div>
                             </div>
                             <div id="svg-animation1" class="content-third-image">
+                                <!-- <img src="images/animation/Wildunfall.svg"> -->
                                 <object type="image/svg+xml" data="images/animation/Wildunfall.svg"></object>
                             </div>
                         </div>
@@ -393,15 +394,13 @@
                                     </div>
                                     <div class="bg-white">
                                         <h3 class="insurence-detail-heading first-heading heading-font">
-                                            Motor Komfort
-                                            <span style="display:block;" class="sub-font">Umfangreiche
-                                                Absicherung</span>
+                                           MOTOR PREMIUM
+                                            <span style="display:block;" class="sub-font">Umfassender Premium-Schutz</span>
                                         </h3>
                                         <h3 class="insurence-detail-heading first-heading heading-font sticky-area"
                                             id="orange-data" style="display: none;">
-                                            Motor Komfort
-                                            <span style="display:block;" class="sub-font">Umfangreiche
-                                                Absicherung</span>
+                                           MOTOR PREMIUM
+                                            <span style="display:block;" class="sub-font">Umfassender Premium-Schutz</span>
                                         </h3>
                                         <h5>ab <span>7,06 €*</span> / Monat</h5>
                                         <h6>ab 84,66 €* / Jahr</h6>
@@ -442,15 +441,14 @@
                                     </div>
                                     <div class="bg-white">
                                         <h3 class="insurence-detail-heading  heading-font">
-                                            Motor Premium
-                                            <span style="display:block;" class="sub-font">Umfassender
-                                                Premium-Schutz</span>
+                                           MOTOR KOMFORT
+                                            <span style="display:block;" class="sub-font">Umfangreiche Absicherung</span>
                                         </h3>
+                                        
                                         <h3 class="insurence-detail-heading  heading-font sticky-area"
                                             style="display: none;" id="green-data">
-                                            Motor Premium
-                                            <span style="display:block;" class="sub-font">Umfassender
-                                                Premium-Schutz</span>
+                                           MOTOR KOMFORT
+                                            <span style="display:block;" class="sub-font">Umfangreiche Absicherung</span>
                                         </h3>
                                         <h5>ab <span>6,83 €*</span> / Monat</h5>
                                         <h6>ab 81,96 €* / Jahr</h6>
@@ -810,7 +808,7 @@
                                         <div class="grid-content not">
                                             <span class="box1 justify-content"><img src="images/Checkmark_green.svg"
                                                     alt="" class="" /><span class="item-padding">/</span>
-                                                <span class="item-padding">bis 3.000 € </span></span>
+                                                <span class="item-padding">bis 10.000 € </span></span>
                                         </div>
                                         <div class="grid-content background">
                                             <span class="box">
@@ -1102,11 +1100,11 @@
         </section>
         <section class="faq-section" id="eighth-von">
             <div class="content" id="question-container">
-                <div class="optimal-head">
-                    <p class="firs-heading">8 von 8</p>
-                    <h4 class="second-heading">TIPPS & HÄUFIG GESTELLTE FRAGEN</h4>
+                
+                    <p>8 von 8</p>
+                    <h4>TIPPS & HÄUFIG GESTELLTE FRAGEN</h4>
                     <p class="sub-title">Individuelle Absicherung und <br> hervorragender Service</p>
-                </div>
+                
                 <div class="question-arrow tips-nav-lg">
                     <a id="question-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
                     <a id="question-next"> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -1738,4 +1736,68 @@
             }
         })
     });
+</script>
+
+
+
+
+<script>
+    $(window).scroll(() => {
+      let position = $('#svg-animation1').offset().top - $(window).height()
+
+      if ($(window).scrollTop() >= position && ($(window).scrollTop() <= position + $(window).height())
+        || ($(window).scrollTop() <= position + ($(window).height() * 0.5) + $(window).height()) && ($(window).scrollTop() >= position)) {
+        if (!($('#svg-animation1').children().length > 0)) {
+          $('#svg-animation1').append('<object type="image/svg+xml" data="images/animation/Wildunfall.svg"></object>')
+        }
+      } else if ($(window).scrollTop() <= position || $(window).scrollTop() >= position + ($(window).height() * 1.5)) {
+        if (($('#svg-animation1').children().length > 0)) {
+          $('#svg-animation1').empty()
+        }
+      }
+    })
+
+    $(window).scroll(() => {
+      let position = $('#svg-animation3').offset().top - $(window).height()
+
+      if ($(window).scrollTop() >= position && ($(window).scrollTop() <= position + $(window).height())
+        || ($(window).scrollTop() <= position + ($(window).height() * 0.5) + $(window).height()) && ($(window).scrollTop() >= position)) {
+        if (!($('#svg-animation3').children().length > 0)) {
+          $('#svg-animation3').append('<object  type="image/svg+xml" data="images/animation/Abkommen_Fahrbahn.svg"></object>')
+        }
+      } else if ($(window).scrollTop() <= position || $(window).scrollTop() >= position + ($(window).height() * 1.5)) {
+        if (($('#svg-animation3').children().length > 0)) {
+          $('#svg-animation3').empty()
+        }
+      }
+    })
+
+    $(window).scroll(() => {
+      let position = $('#svg-animation5').offset().top - $(window).height()
+
+      if ($(window).scrollTop() >= position && ($(window).scrollTop() <= position + $(window).height())
+        || ($(window).scrollTop() <= position + ($(window).height() * 0.5) + $(window).height()) && ($(window).scrollTop() >= position)) {
+        if (!($('#svg-animation5').children().length > 0)) {
+          $('#svg-animation5').append('<object  type="image/svg+xml" data="images/animation/Auffahrunfall.svg"></object>')
+        }
+      } else if ($(window).scrollTop() <= position || $(window).scrollTop() >= position + ($(window).height() * 1.5)) {
+        if (($('#svg-animation5').children().length > 0)) {
+          $('#svg-animation5').empty()
+        }
+      }
+    })
+
+    $(window).scroll(() => {
+      let position = $('#svg-animation2').offset().top - $(window).height()
+
+      if ($(window).scrollTop() <= $(window).height()) {
+        if (!($('#svg-animation2').children().length > 0)) {
+          $('#svg-animation2').append('<object  type="image/svg+xml" data="images/animation/Crew.svg"></object>')
+        }
+      } else if ($(window).scrollTop() >= $(window).height()) {
+        if (($('#svg-animation2').children().length > 0)) {
+          $('#svg-animation2').empty()
+        }
+      }
+    })
 </script>

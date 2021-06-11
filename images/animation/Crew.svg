@@ -433,27 +433,281 @@
             <rect id="masking" width="610" height="463.421" fill="url(#Gradient-52)" stroke="none" transform="translate(468.242,139.124) translate(-232.242,-155.545)"/>
         </mask>
     </defs>
-    <style>
-@keyframes a0_t { 0% { transform: translate(-914.982px,0px); } 100% { transform: translate(-33.151px,0px); } }
-@keyframes a1_t { 0% { transform: translate(-642.214px,0px); } 100% { transform: translate(1990.665px,0px); } }
-@keyframes front_t { 0% { transform: translate(-889.268px,0px); } 100% { transform: translate(3260.746px,0px); } }
-@keyframes driver3_t { 0% { transform: translate(892.62px,0px); } 57.1428% { transform: translate(892.62px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 71.4285% { transform: translate(225.056px,0px); } 85.7142% { transform: translate(225.056px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(-516.374px,0px); } }
-@keyframes wheel-4_t { 0% { transform: translate(454.358px,382.276px) rotate(0deg) translate(-144.116px,-377.821px); } 57.1428% { transform: translate(454.358px,382.276px) rotate(0deg) translate(-144.116px,-377.821px); } 100% { transform: translate(454.358px,382.276px) rotate(-4320deg) translate(-144.116px,-377.821px); } }
-@keyframes wheel-3_t { 0% { transform: translate(168.202px,382.276px) rotate(0deg) translate(-144.116px,-377.821px); } 57.1428% { transform: translate(168.202px,382.276px) rotate(0deg) translate(-144.116px,-377.821px); } 100% { transform: translate(168.202px,382.276px) rotate(-4320deg) translate(-144.116px,-377.821px); } }
-@keyframes bubble3_t { 0% { transform: translate(327.202px,132.519px) scale(0,0) translate(-360.647px,-151.882px); } 64.2857% { transform: translate(327.202px,132.519px) scale(0,0) translate(-360.647px,-151.882px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 71.4285% { transform: translate(327.202px,132.519px) scale(1,1) translate(-360.647px,-151.882px); } 100% { transform: translate(327.202px,132.519px) scale(1,1) translate(-360.647px,-151.882px); } }
-@keyframes driver2_t { 0% { transform: translate(1052.345px,0px); } 28.5714% { transform: translate(1052.345px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 42.8571% { transform: translate(236px,0px); } 57.1428% { transform: translate(236px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 71.4285% { transform: translate(-464.392px,0px); } 100% { transform: translate(-464.392px,0px); } }
-@keyframes wheel-2_t { 0% { transform: translate(466.127px,381.328px) rotate(0deg) translate(-147.762px,-381.328px); } 28.5714% { transform: translate(466.127px,381.328px) rotate(0deg) translate(-147.762px,-381.328px); } 71.4285% { transform: translate(466.127px,381.328px) rotate(-4320deg) translate(-147.762px,-381.328px); } 100% { transform: translate(466.127px,381.328px) rotate(-4320deg) translate(-147.762px,-381.328px); } }
-@keyframes wheel_t { 0% { transform: translate(147.762px,381.328px) rotate(0deg) translate(-147.762px,-381.328px); } 28.5714% { transform: translate(147.762px,381.328px) rotate(0deg) translate(-147.762px,-381.328px); } 71.4285% { transform: translate(147.762px,381.328px) rotate(-4320deg) translate(-147.762px,-381.328px); } 100% { transform: translate(147.762px,381.328px) rotate(-4320deg) translate(-147.762px,-381.328px); } }
-@keyframes bubble2_t { 0% { transform: translate(334.112px,132.512px) scale(0,0) translate(-367.168px,-152.346px); } 35.7142% { transform: translate(334.112px,132.512px) scale(0,0) translate(-367.168px,-152.346px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 42.8571% { transform: translate(334.112px,132.512px) scale(1,1) translate(-367.168px,-152.346px); } 100% { transform: translate(334.112px,132.512px) scale(1,1) translate(-367.168px,-152.346px); } }
-@keyframes driver1_t { 0% { transform: translate(763.651px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 14.2857% { transform: translate(227.265px,0px); } 28.5714% { transform: translate(227.265px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 42.8571% { transform: translate(-501.632px,0px); } 100% { transform: translate(-501.632px,0px); } }
-@keyframes wheel-6_t { 0% { transform: translate(151.319px,382.701px) rotate(0deg) translate(-151.319px,-382.701px); } 42.8571% { transform: translate(151.319px,382.701px) rotate(-2880deg) translate(-151.319px,-382.701px); } 100% { transform: translate(151.319px,382.701px) rotate(-2880deg) translate(-151.319px,-382.701px); } }
-@keyframes wheel2_t { 0% { transform: translate(452.989px,382.701px) rotate(0deg) translate(-452.989px,-382.701px); } 42.8571% { transform: translate(452.989px,382.701px) rotate(-2880deg) translate(-452.989px,-382.701px); } 100% { transform: translate(452.989px,382.701px) rotate(-2880deg) translate(-452.989px,-382.701px); } }
-@keyframes bubble_t { 0% { transform: translate(357.915px,112.712px) scale(0,0) translate(-357.915px,-112.712px); } 7.1428% { transform: translate(357.915px,112.712px) scale(0,0) translate(-357.915px,-112.712px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 14.2857% { transform: translate(357.915px,112.712px) scale(1,1) translate(-357.915px,-112.712px); } 100% { transform: translate(357.915px,112.712px) scale(1,1) translate(-357.915px,-112.712px); } }
-@keyframes driver1-2_t { 0% { transform: translate(763.651px,0px); } 85.7142% { transform: translate(763.651px,0px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(227.265px,0px); } }
-@keyframes wheel-5_t { 0% { transform: translate(151.319px,382.701px) rotate(0deg) translate(-151.319px,-382.701px); } 85.7142% { transform: translate(151.319px,382.701px) rotate(0deg) translate(-151.319px,-382.701px); animation-timing-function: cubic-bezier(0,0,0.58,1); } 100% { transform: translate(151.319px,382.701px) rotate(-1440deg) translate(-151.319px,-382.701px); } }
-@keyframes wheel2-2_t { 0% { transform: translate(452.989px,382.701px) rotate(0deg) translate(-452.989px,-382.701px); } 85.7142% { transform: translate(452.989px,382.701px) rotate(0deg) translate(-452.989px,-382.701px); animation-timing-function: cubic-bezier(0,0,0.58,1); } 100% { transform: translate(452.989px,382.701px) rotate(-1440deg) translate(-452.989px,-382.701px); } }
-@keyframes bubble-2_t { 0% { transform: translate(357.915px,112.712px) scale(0,0) translate(-357.915px,-112.712px); } 92.8571% { transform: translate(357.915px,112.712px) scale(0,0) translate(-357.915px,-112.712px); animation-timing-function: cubic-bezier(0.42,0,0.58,1); } 100% { transform: translate(357.915px,112.712px) scale(1,1) translate(-357.915px,-112.712px); } }
-    </style>
+<style>
+
+
+@keyframes a0_t {
+    0% {
+        transform: translate(-914.982px, 20px);
+    }
+    100% {
+        transform: translate(-33.151px, 20px);
+    }
+}
+
+@keyframes a1_t {
+    0% {
+        transform: translate(-642.214px, 20px);
+    }
+    100% {
+        transform: translate(1990.665px, 20px);
+    }
+}
+
+@keyframes front_t {
+    0% {
+        transform: translate(-889.268px, 25px);
+    }
+    100% {
+        transform: translate(3260.746px, 25px);
+    }
+}
+
+@keyframes driver3_t {
+    0% {
+        transform: translate(892.62px, 0px);
+    }
+    57.1428% {
+        transform: translate(892.62px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    71.4285% {
+        transform: translate(225.056px, 0px);
+    }
+    85.7142% {
+        transform: translate(225.056px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    100% {
+        transform: translate(-516.374px, 0px);
+    }
+}
+
+@keyframes wheel-4_t {
+    0% {
+        transform: translate(454.358px, 382.276px) rotate(0deg) translate(-144.116px, -377.821px);
+    }
+    57.1428% {
+        transform: translate(454.358px, 382.276px) rotate(0deg) translate(-144.116px, -377.821px);
+    }
+    100% {
+        transform: translate(454.358px, 382.276px) rotate(-4320deg) translate(-144.116px, -377.821px);
+    }
+}
+
+@keyframes wheel-3_t {
+    0% {
+        transform: translate(168.202px, 382.276px) rotate(0deg) translate(-144.116px, -377.821px);
+    }
+    57.1428% {
+        transform: translate(168.202px, 382.276px) rotate(0deg) translate(-144.116px, -377.821px);
+    }
+    100% {
+        transform: translate(168.202px, 382.276px) rotate(-4320deg) translate(-144.116px, -377.821px);
+    }
+}
+
+@keyframes bubble3_t {
+    0% {
+        transform: translate(327.202px, 132.519px) scale(0, 0) translate(-360.647px, -151.882px);
+    }
+    64.2857% {
+        transform: translate(327.202px, 132.519px) scale(0, 0) translate(-360.647px, -151.882px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    71.4285% {
+        transform: translate(327.202px, 132.519px) scale(1, 1) translate(-360.647px, -151.882px);
+    }
+    100% {
+        transform: translate(327.202px, 132.519px) scale(1, 1) translate(-360.647px, -151.882px);
+    }
+}
+
+@keyframes driver2_t {
+    0% {
+        transform: translate(1052.345px, 0px);
+    }
+    28.5714% {
+        transform: translate(1052.345px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    42.8571% {
+        transform: translate(236px, 0px);
+    }
+    57.1428% {
+        transform: translate(236px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    71.4285% {
+        transform: translate(-464.392px, 0px);
+    }
+    100% {
+        transform: translate(-464.392px, 0px);
+    }
+}
+
+@keyframes wheel-2_t {
+    0% {
+        transform: translate(466.127px, 381.328px) rotate(0deg) translate(-147.762px, -381.328px);
+    }
+    28.5714% {
+        transform: translate(466.127px, 381.328px) rotate(0deg) translate(-147.762px, -381.328px);
+    }
+    71.4285% {
+        transform: translate(466.127px, 381.328px) rotate(-4320deg) translate(-147.762px, -381.328px);
+    }
+    100% {
+        transform: translate(466.127px, 381.328px) rotate(-4320deg) translate(-147.762px, -381.328px);
+    }
+}
+
+@keyframes wheel_t {
+    0% {
+        transform: translate(147.762px, 381.328px) rotate(0deg) translate(-147.762px, -381.328px);
+    }
+    28.5714% {
+        transform: translate(147.762px, 381.328px) rotate(0deg) translate(-147.762px, -381.328px);
+    }
+    71.4285% {
+        transform: translate(147.762px, 381.328px) rotate(-4320deg) translate(-147.762px, -381.328px);
+    }
+    100% {
+        transform: translate(147.762px, 381.328px) rotate(-4320deg) translate(-147.762px, -381.328px);
+    }
+}
+
+@keyframes bubble2_t {
+    0% {
+        transform: translate(334.112px, 132.512px) scale(0, 0) translate(-367.168px, -152.346px);
+    }
+    35.7142% {
+        transform: translate(334.112px, 132.512px) scale(0, 0) translate(-367.168px, -152.346px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    42.8571% {
+        transform: translate(334.112px, 132.512px) scale(1, 1) translate(-367.168px, -152.346px);
+    }
+    100% {
+        transform: translate(334.112px, 132.512px) scale(1, 1) translate(-367.168px, -152.346px);
+    }
+}
+
+@keyframes driver1_t {
+    0% {
+        transform: translate(763.651px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    14.2857% {
+        transform: translate(227.265px, 0px);
+    }
+    28.5714% {
+        transform: translate(227.265px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    42.8571% {
+        transform: translate(-501.632px, 0px);
+    }
+    100% {
+        transform: translate(-501.632px, 0px);
+    }
+}
+
+@keyframes wheel-6_t {
+    0% {
+        transform: translate(151.319px, 382.701px) rotate(0deg) translate(-151.319px, -382.701px);
+    }
+    42.8571% {
+        transform: translate(151.319px, 382.701px) rotate(-2880deg) translate(-151.319px, -382.701px);
+    }
+    100% {
+        transform: translate(151.319px, 382.701px) rotate(-2880deg) translate(-151.319px, -382.701px);
+    }
+}
+
+@keyframes wheel2_t {
+    0% {
+        transform: translate(452.989px, 382.701px) rotate(0deg) translate(-452.989px, -382.701px);
+    }
+    42.8571% {
+        transform: translate(452.989px, 382.701px) rotate(-2880deg) translate(-452.989px, -382.701px);
+    }
+    100% {
+        transform: translate(452.989px, 382.701px) rotate(-2880deg) translate(-452.989px, -382.701px);
+    }
+}
+
+@keyframes bubble_t {
+    0% {
+        transform: translate(357.915px, 112.712px) scale(0, 0) translate(-357.915px, -112.712px);
+    }
+    7.1428% {
+        transform: translate(357.915px, 112.712px) scale(0, 0) translate(-357.915px, -112.712px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    14.2857% {
+        transform: translate(357.915px, 112.712px) scale(1, 1) translate(-357.915px, -112.712px);
+    }
+    100% {
+        transform: translate(357.915px, 112.712px) scale(1, 1) translate(-357.915px, -112.712px);
+    }
+}
+
+@keyframes driver1-2_t {
+    0% {
+        transform: translate(763.651px, 0px);
+    }
+    85.7142% {
+        transform: translate(763.651px, 0px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    100% {
+        transform: translate(227.265px, 0px);
+    }
+}
+
+@keyframes wheel-5_t {
+    0% {
+        transform: translate(151.319px, 382.701px) rotate(0deg) translate(-151.319px, -382.701px);
+    }
+    85.7142% {
+        transform: translate(151.319px, 382.701px) rotate(0deg) translate(-151.319px, -382.701px);
+        animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    }
+    100% {
+        transform: translate(151.319px, 382.701px) rotate(-1440deg) translate(-151.319px, -382.701px);
+    }
+}
+
+@keyframes wheel2-2_t {
+    0% {
+        transform: translate(452.989px, 382.701px) rotate(0deg) translate(-452.989px, -382.701px);
+    }
+    85.7142% {
+        transform: translate(452.989px, 382.701px) rotate(0deg) translate(-452.989px, -382.701px);
+        animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    }
+    100% {
+        transform: translate(452.989px, 382.701px) rotate(-1440deg) translate(-452.989px, -382.701px);
+    }
+}
+
+@keyframes bubble-2_t {
+    0% {
+        transform: translate(357.915px, 112.712px) scale(0, 0) translate(-357.915px, -112.712px);
+    }
+    92.8571% {
+        transform: translate(357.915px, 112.712px) scale(0, 0) translate(-357.915px, -112.712px);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    100% {
+        transform: translate(357.915px, 112.712px) scale(1, 1) translate(-357.915px, -112.712px);
+    }
+}
+
+    #driver11 {
+    transform: translateY(-130px)!important;
+}
+</style>
     <g transform="translate(1041.71,416.454) scale(1.6,1.6) translate(-2440.18,-223.501)">
         <g mask="url(#Mask-1)" transform="translate(2445.3,223.501) translate(-883.335,-223.501)">
             <g id="background" class="cls-2" clip-path="url(#clip-path)" transform="translate(236,0)">
@@ -747,4 +1001,14 @@
             </g>
         </g>
     </g>
+    <linearGradient id="SVGID_71_" gradientUnits="userSpaceOnUse" x1="0" y1="406.2119" x2="156" y2="406.2119">
+	<stop  offset="0.3903" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</linearGradient>
+<rect y="14.6" style="fill:url(#SVGID_71_);" width="156" height="783.2"/>
+<linearGradient id="SVGID_72_" gradientUnits="userSpaceOnUse" x1="844" y1="407.2604" x2="1000" y2="407.2604" gradientTransform="matrix(-1 0 0 1 1844 0)">
+	<stop  offset="0.3903" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+</linearGradient>
+<polygon style="fill:url(#SVGID_72_);" points="844,798.8 1000,798.8 1000,15.7 844,15.7 "/>
 </svg>
